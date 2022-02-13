@@ -1,6 +1,6 @@
 **MT. OLIVE BAPTIST CHURCH**
 
-https://www.mtolivebaptistchurch.net or [mtoliveofpc.com](http://mtoliveofpc.com/)
+[mtolivebaptistchurch.net](https://mtolivebaptistchurch.net) or [mtoliveofpc.com](http://mtoliveofpc.com/)
 
 
 
