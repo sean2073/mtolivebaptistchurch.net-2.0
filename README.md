@@ -1,4 +1,4 @@
-**MT. OLIVE BAPTIST CHURCH**
+# MT. OLIVE BAPTIST CHURCH
 
 [mtolivebaptistchurch.net](https://mtolivebaptistchurch.net) or [mtoliveofpc.com](http://mtoliveofpc.com/)
 
@@ -6,7 +6,7 @@
 
 
 
-**Version 2.0 has the following upgrades**
+## Version 2.0 has the following upgrades
 
 1. Favicon icons have been added
 2. The Recaptcha API has been added to the prayer request form and contact form
