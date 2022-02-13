@@ -1,0 +1,37 @@
+
+
+#give-p1{
+    
+    background-image: url("./images/tithe.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    /*  */
+  
+    
+}   
+.give-p{
+    color: white;
+}
+    
+#section-1{
+    
+    
+    background-image: url("../images/36926646916_5eeef40750_o.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    height: 400px;
+    
+    width: 100%;
+
+    
+}   
+#section-2{
+    
+   
+}
+#section-3{
+    
+    
+    border: 1px solid black;
+}

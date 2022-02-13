@@ -1,0 +1,116 @@
+#footer{
+    background-color: #ffeeba;
+    background-color: #2196f3; /* I love this blue */
+    color: #ffffff;
+    border-top: 3px solid #222;
+    border-bottom: 64px solid #0f67b3;
+    margin-left: 10px;
+    position: absolute;
+    top: 340%;
+    /* color: #17a2b8;
+    color: #ffffff;
+    color: #007bff;
+   */ 
+
+    
+}
+#logo {
+    margin-left: 40px;
+    float: right;
+}
+#head-logo{
+    float: right;
+    margin-left: 20px;
+}
+#social-media{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+header{
+    margin-left: 60px;
+    margin-right: 80px;
+   /* height: 230px;
+    width: 900px; */
+    
+}
+div#foot-nav{
+    /*margin-left: 580px;*/
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+hr{
+    color: #ffeeba;
+}
+.table-links, th, td {
+    border: 0px solid black;
+  }
+   /* USED IN HEADER NAVIGATION */
+#navigation{
+    float: left;
+    
+
+}
+.nav-link{
+    font-size: 20px;
+    margin-top: 70px;
+    float: left;
+}
+/*********************************/
+.display-3, .display-4,.info{
+    text-align: center;
+}
+
+#home-main-section{
+    clear: both; 
+    margin-left: 10px;
+    margin-right: 70px;
+    margin-top: 25px;
+   
+}
+
+#home-p1{
+    
+    background-image: url("./images/church3.png");
+    background-repeat: no-repeat;
+    height: 600px;
+   /*  padding-bottom: 50%;
+   margin-top: 200px; 
+    
+    height: 600px;*/
+    
+}
+
+#home-p2{
+    color: #222;
+    height: 499px;
+    
+    top: 200%;
+}
+
+#home-p3{
+    top: 300%;
+    border-top: 1px solid #222;
+    height: 764px;
+    
+    
+}
+ #home-p1, #home-p2, #home-p3
+{ 
+    width: 1341.73px; 
+    position:absolute;
+}
+#home-text{
+    clear: both;
+    height: 200px;
+    margin-left: 350px;
+    padding-top:  200px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-style: unset;
+/* margin-top: 80px;color: #0f67b3;*/
+}
+/*
+ 
+*/
