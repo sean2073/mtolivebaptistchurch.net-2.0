@@ -6,7 +6,7 @@
 
 
 
-**Version 2.0 has the following upgrads Many upgrades**
+**Version 2.0 has the following upgrades**
 
 1. Favicon icons have been added
 2. The Recaptcha API has been added to the prayer request form and contact form
