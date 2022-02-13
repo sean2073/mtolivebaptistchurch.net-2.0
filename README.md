@@ -1,8 +1,12 @@
-**Mt. Olive Baptist Church**
-This is the second version of the website for Mt. Olive Baptist Church
-the website is https://www.mtolivebaptistchurch.net or [mtoliveofpc.com](http://mtoliveofpc.com/)
+**MT. OLIVE BAPTIST CHURCH**
 
-Many upgrades have been made
+https://www.mtolivebaptistchurch.net or [mtoliveofpc.com](http://mtoliveofpc.com/)
+
+
+
+
+
+**Version 2.0 has the following upgrads Many upgrades**
 
 1. Favicon icons have been added
 2. Recaptcha has been added to the prayer request form and contact form
