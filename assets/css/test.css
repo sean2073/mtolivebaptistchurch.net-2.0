@@ -1,0 +1,12 @@
+homepage{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+prayer{
+	   width: 40%;
+    margin: 3.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

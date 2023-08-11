@@ -1,0 +1,89 @@
+Return-Path: <>
+X-Original-To: seabyf@reliant.dreamhost.com
+Delivered-To: seabyf@reliant.dreamhost.com
+Received: from iad1-shared-relay.dreamhost.com (dashboard.dreamcompute.com [208.113.156.243])
+	by reliant.dreamhost.com (Postfix) with ESMTP id 4QyRzb3kqFzJJ
+	for <seabyf@reliant.dreamhost.com>; Fri,  7 Jul 2023 14:55:55 -0700 (PDT)
+Received: by iad1-shared-relay.dreamhost.com (Postfix)
+	id 4QyRzb30D6z1sV; Fri,  7 Jul 2023 14:55:55 -0700 (PDT)
+Date: Fri,  7 Jul 2023 14:55:55 -0700 (PDT)
+From: MAILER-DAEMON@iad1-shared-relay.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: seabyf@reliant.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="4QyRzY5dftz1qt.1688766955/iad1-shared-relay.dreamhost.com"
+Message-Id: <4QyRzb30D6z1sV@iad1-shared-relay.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--4QyRzY5dftz1qt.1688766955/iad1-shared-relay.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host iad1-shared-relay.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+                DreamHost Email Support
+
+<pastor@mtolivebaptistchurch.net>: host mx2.mailchannels.net[35.84.98.43] said:
+    550 5.7.1 [NR] Message rejected (in reply to end of DATA command)
+
+--4QyRzY5dftz1qt.1688766955/iad1-shared-relay.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; iad1-shared-relay.dreamhost.com
+X-Postfix-Queue-ID: 4QyRzY5dftz1qt
+X-Postfix-Sender: rfc822; seabyf@reliant.dreamhost.com
+Arrival-Date: Fri,  7 Jul 2023 14:55:53 -0700 (PDT)
+
+Final-Recipient: rfc822; pastor@mtolivebaptistchurch.net
+Original-Recipient: rfc822;pastor@mtolivebaptistchurch.net
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; mx2.mailchannels.net
+Diagnostic-Code: smtp; 550 5.7.1 [NR] Message rejected
+
+--4QyRzY5dftz1qt.1688766955/iad1-shared-relay.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <seabyf@reliant.dreamhost.com>
+Received: from reliant.dreamhost.com (reliant.dreamhost.com [173.236.168.104])
+	by iad1-shared-relay.dreamhost.com (Postfix) with ESMTP id 4QyRzY5dftz1qt;
+	Fri,  7 Jul 2023 14:55:53 -0700 (PDT)
+Received: by reliant.dreamhost.com (Postfix, from userid 5408433)
+	id 4QyRzY4g99zgN; Fri,  7 Jul 2023 14:55:53 -0700 (PDT)
+To: seanbbyfield@gmail.com,pastor@mtolivebaptistchurch.net
+Subject: Inquiry from mtolivebaptistchurch.net
+X-PHP-Originating-Script: 5408433:contactForm.php
+From: pastor@mtolivebaptistchurch.net
+Reply-To: thatbrowngurl@gmail.com 
+X-Mailer: PHP/8.1.17MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <4QyRzY4g99zgN@reliant.dreamhost.com>
+Date: Fri,  7 Jul 2023 14:55:53 -0700 (PDT)
+
+<html><body> <h2>Name: Sean Z. Brown
+<br>Email Address: thatbrowngurl@gmail.com 
+<br>Subject: Contact form  
+<br>Message: m 
+</h2></body></html>
+
+--4QyRzY5dftz1qt.1688766955/iad1-shared-relay.dreamhost.com--

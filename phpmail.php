@@ -1,5 +1,4 @@
 <?php
-echo 'Inside of prayerForm.php';
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -16,17 +15,16 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.dreamhost.com';                  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'pastor.wilkerson@mtolivebaptistchurch.net' ;      // SMTP username
-    $mail->Password = 'Mtolive2023';                           // SMTP password
+    $mail->Username = 'info@mtolivebaptistchurch.net';      // SMTP username
+    $mail->Password = 'secret';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable SSL encryption, TLS also accepted with port 465
     $mail->Port = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('pastor.wilkerson@mtolivebaptistchurch.net', 'Prayer Request');          //This is the email your form sends From
-    $mail->addAddress('pastor.wilkerson@mtolivebaptistchurch.net', ''); // Add a recipient address
+    $mail->setFrom('info@mtolivebaptistchurch.net', 'Mailer');          //This is the email your form sends From
+    $mail->addAddress('info@mtolivebaptistchurch.net', 'Joe User'); // Add a recipient address
     $mail->addAddress('thatbrowngurl@gmail.com');               // Name is optional
-   // $mail->addReplyTo('thatbrowngurl@gmail.com');
-   //$mail->addReplyTo($_POST['userEmail-address']);
+    //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
 
@@ -36,15 +34,8 @@ try {
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Prayer Request From mtolivebaptistchurch.net';
-  //  $mail->Body    = 'Body text goes here';
-     $mail->Body = <<<EOT
-	 Someone from the church sent the following prayer request
-<br>
-<strong>Message:</strong> 
-{$_POST['message']}
-
-EOT;
+    $mail->Subject = 'Inquiry from Contact Form on mtolivebaptistchurch.net';
+    $mail->Body    = 'Body text goes here';
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();

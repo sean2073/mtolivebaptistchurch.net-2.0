@@ -1,551 +1,640 @@
-html{
-    width: 960px;
-    margin: 0 auto;
-    
-   
-    
- }
-/*  ADDING THE BELOW p TAG STYLES GOT RID OF THE GAP BETWEEN MY DIVS
-*/
-p{
-    margin: 0;
-    padding: 0.5em 1em;
-    
-}
-/*************************************************************/
-.display-3, .display-4,.info{
-    text-align: center;
-} 
-#top, #home-p2, #home-p3, #footer {
-    /*
-    width: 930px;
-    position: absolute;
-    
-*/
-	
-}
-.container{
-    background-color: transparent;
-    width: 960px;
-    max-width: 930px;
-    /* max-width: 730px; */
-    margin: 0 auto;
-    
-   
+/* --- STYLES FOR ALL PAGES --- */
 
-    
+--root: background-color: #f3c24e;
+background-color: #404040;
+background-color: #e0d9dd;
+border: 4px solid #e1cfd8;
+border: 1px solid #222;
+rgba(108, 117, 125, 0.5);
+--secondary:#aea79f;
+html {
+    position: relative;
+    margin: 0 auto;
 }
-/********************************************************************
-/***********************************************************************************************************/
-/*  
-/*                       F O O T E R 
-/***********************************************************************************************************/
-/********************************************************************/
-#footer{
+
+header {
     clear: both;
-    background-color: #0b76be;
     background-color: #800020;
-    background-color: #404040;
-    color: #ffffff;
-    border-top: 3px solid #222;
-    border-bottom: 24px solid #634d4d;
-    border-bottom: 24px solid #800020;
-}
-#social-media{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-div#foot-nav{
-    
-    margin-top: 30px;
-    margin-left: 20px;
-    font-size: 15px;
-   
-}
-.menu-link{
-    font-size: 7px;
-}
-/********************************************************************/
-/***********************************************************************************************************/
-
-
-
-
-
-
-/********************************************************************
-/***********************************************************************************************************/
-/*  
-/*                       T O P   S E C T I O N
-/***********************************************************************************************************/
-/********************************************************************/
-
-#top{
-    /*clear: both;   */
-    
-   
-    background-image: url("../images/mtolive.png");
-    background-image: url("../images/graphic2.png");
-    background-repeat: no-repeat;
-    margin-top: 1px;
-   /*width: 960px; */
-    height: 310px;
-    /* padding-bottom: 50%;
-   
-    
-    height: 600px;*/
-    
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #222;
+    opacity: 1.00;
 }
 
-#nav{
-   
-    margin-top: 40px;
-    margin-left: 16px;
-    
+logo {
+    /* width: 20%;  */
 }
-.nav-link{
-    font-size: large;
+
+.responsive {
+    width: 233px;
+    height: 180px;
+    margin-left: 50px;
+    margin-bottom: 8px;
 }
-#logo{
-    margin-top: 45px;
-    margin-left: 20px;
+
+nav {
+    width: 35%;
+    width: 40%;
 }
-.responsive{
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-  }
-.responsive2{
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-  }
-#scripture{
-    color: #ededed;
-    color: goldenrod;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 5px;
-    font-size: 2vw;
-    font-size: 15px;
-}
-#script-list{
+
+
+/* header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
-}
-#pR{
-   margin-top: 30px; 
-    
-}
-/********************************************************************/
-/***********************************************************************************************************/
+  } */
 
-#mid-section{
+.navbar {
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #e95420;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(66, 16, 16, 0.5);
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+#givelify {
+    margin: 15px
+    /* align-items:center; */
+    /* width: 45%  */
+}
+
+#givelify button {
+    color: #acbf61;
+}
+.hide {
+  display: none;
+}
+.btn {
+    border-radius: 20px 20px 20px 20px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-sean {
+    width: 80px;
+}
+
+
+/* .homePic{
+    display: inline-block;
+    background-image: url("../images/20191118_191955_4.jpg");
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    /* justify-content:flex-end; */
+
+
+/* min-height: 467px;
+     width: 100%;  
+    } */
+
+.homepage {
     clear: both;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: green;
+    color: #556b2f;
+    background-image: url("../images/20191118_191955_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center;
+    height: 587px;
     
-    
-    /* background-image: url("../images/church3.png");
-    background-image: url("../images/36926646916_5eeef40750_o.jpg");
-    background-image: url("../images/18981837903_586eeb43f2_o.jpg");
-    background-image: url("../images/20191118_191955.jpg");
-    /*background-image: url("../images/church3.png"); */
-    /* background-repeat: no-repeat;
-    background-size: 100% 100%;  */
-    
-    height: 467px;
-    /* width: 100%; */
-    
-    
-   /* width: 960px;*/
+    /* background-color: rgba(0, 0, 0, 0.35); */
+    /* opacity: 0.80; */
 }
 
 
-#home-p2, #home-p3
-{ 
+/* .homepage::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.07); 
+    }*/
+
+give {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45%;
+    height: auto;
     
-    
-   /* 
-   
-    width: 930px; 
-   margin-left: 10px;
-    margin-right: 10px;*/
-    color: #ffffff;
-    color: #222;
-    
-}
-#home-p2{
-   height: 480px; 
-   /*margin: 0;
-   padding: 0; */
-}
-#home-p3{
-    background-color: #e6c8c8;
-    background-color: #e0cbcb;
-    background-color: #e1cfd8 ;
-    background-color: #e0d9dd ;
-    color: #770f12;
-    color: #4a090b;
-    border: 4px solid #e1cfd8;
-    height: 300px;
-}
-#home-text{
-    clear: both;
-    height: 200px;
-    margin-left: 100px;
-    padding-top:  100px;
-    font-size: 40px;
-    color: #ffffff;
-    /*font-weight: bolder;
-    font-style: unset;*/
-/* margin-top: 80px;color: #0f67b3;*/
+    text-align: justify;
+    /* text-emphasis: filled red; */
+    margin: 1.5%;
+    color: #fff;
+    color:#404040;
+    color: #800020;
+    color: black;
+    font-size: 18px;
+    /* font-weight:900; */
+    /* fill-opacity: inherit; */
+    line-height: 1.3;
+    /* background-color: rgb(208, 224, 230); */
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 3px double #000; */
+    /* background-color: rgba(0, 0, 0, 0.07); */
+    /* opacity: 10%; */
+    background-image: url("../images/vision4.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+        background-size: contain;
+
+
+    background-position:top;
+
 }
 
-#about-main-section{
+give p {
+    font-size: 22px;
+}
+
+prayer {
+    /* border: 1px double #fff; */
+    width: 40%;
+    /* height: 30%; */
+    margin: 1.5%;
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
     
 }
-#prayer-window{
+
+#prayer-request {
+    color: #acbf61;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#form {
+    /* display: flex; */
+    opacity: 90%;
+    background-color: #e95420;
+    background-color: #aea79f;
     background-color: #f3c24e;
     background-color: #404040;
-    color: #ffffff;
-    width: 665px;
-    height: 530px;
-    position: absolute;
-    top: 0;
-    left: 160;
-    display: none;
-    margin-left: 50px;
-    margin-top: 200px;
-    border: 1px solid #222;
-    border: 1px solid rgb(17, 16, 16);
-    border-bottom: 8px solid #800020;
+    width: auto;
+    border: 1px solid #800020;
+    color: #fff;
 }
-#prayer-window.h1{
-    margin-left: 30px; 
+
+.form-group,
+prayer button {
+    margin: 5%;
 }
-#form{
-    margin-left: 15px;
+
+
+/* .form-group textarea,.form-group input{
+      /* background-color: cornflowerblue;  */
+
+
+/* width: 95%; 
+    } */
+
+join-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
 }
-#exampleTextarea{
-    width: 600px;
-    margin-left: ;
+
+/* events {
+    background-color: #f1e3e3e3;
+    background-color: #f3c24e;
+    background-color: #aea79f;
+        background-color: #fbddd2;
+
+    /* background-color: darkgreen; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: #792c11;
+    border-top: 1px solid #62210b; */
+/* }  */
+
+
+.events h1{
+    margin: 18px 0;
+    text-align: center;
 }
-#prayerMessage{
-    width: 590px;
+.events-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
 }
-#contact-p1{
-    height: 800px;
+events h4{
+    color:#e95420;
+}
+
+events p {
+    /* text-align: justify; */
+    margin: 3px 8px;
+}
+
+
+
+reach-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+aboutpage{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   height: auto;
+/* max-height: 800px;   */
+margin-top: 80px;  
+}
+ /* #pastor-pic{
+    border:solid 2px #000;
+
+} */
+/*
+#pastor-bio{
+    width: 40%;
+}
+#pastor-bio h1{
+    text-align: center;
 }
 .pastorPic-responsive{
     /* float: left;   */
     /* height: 100%;
     width: 100%; */
-    max-width: 300px;
-    margin-left: 10px;
+    /* max-width: 300px;
+    margin-left: 10px; */
+/* }  */
+#pastor {
+	clear: both;
+  margin: 0;
+  display: flex;
+  /* border: 5px solid #333; */
+  margin-bottom: 2rem;
+  /***********/
+  justify-content: center;
 }
-/* #pastor-bio{
-    float: right;
-    width: 530px; 
-    /* text-align: justify;  */
-/* } */ */
-#first-lady{
-    float: left;
-    width: 530px;
+#pastor div:first-child {
+  flex: 1;
+    margin-left: 2rem;
+
+   /* width: 25%; */
+  background-size: cover;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  /* border: 5px solid #333; */
+  /* height: 400px; */
+
 }
-#first-lady-pic{
-    float: right;
+#pastor div:last-child {
+  margin: 0 2rem;
+  flex: 2;
+   /* width: 45%; */
 }
-/* #vision{
-    float: left;
-    width: 600px;
-    clear: both;
-} */
-#fl{
-    clear: both;
+#pastor:first-of-type div:first-child {
+  /* background-image: url("../images/Pastor/20180923_131555.jpg"); */
+   background-image: url("../images/Pastor/pastor2.jpg");
+  
 }
 
-#div1, #div2, #div3, #div4, #contact-p1, #serve-2, #serve-3{
-    margin: auto;
+laws, events{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #792c11;
+    border-top: 1px solid #62210b;
+    background-color: #fbddd2;
+/* text-align: center; */
+
+}
+.laws h1{
+    margin: 18px 0;
+    text-align: center;
+}
+
+contactpage {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    color: green;
+    color: #556b2f;
+    background-color: #f9fbf3e6;
+    background-color: #e9f1f162;
+    /* background-image: url("./assets/images/20191118_191955_4.jpg"); */
+    /* background-image: url("../images/Choir/20191013_214935_resized[2]_3.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    height: 850px;
+}
+ #contactForm h1{
+    text-align: center;
+    
+    
+} 
+
+
+#contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    -moz-box-shadow: 0 3px 5px -6px #ccc;
+    -webkit-box-shadow: 0 3px 5px -6px #ccc;
+    box-shadow: 0 5px 5px 3px #ccc;
+    border-radius: 0 0 10px 10px;
+    border-radius: 30px;
+    background: #73AD21;
+    background: #fff;
+    padding: 20px;
+    width: 60%;
+    border: 1px solid #f37521;
+    border-top: 0;
+    margin-top: 50px;
+    margin-top: 10px;
+    
+}
+.title{
+	width: 100%;
+	text-align: center;
+    height: 80px;
+    margin:0;
+}
+.info{
+	width: 100%;
+	text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-top: 8px;
+}
+#contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.form-control-plaintext,
+.form-control {
+    /* border: 1px solid #f37521; */
+    background-color: #e9f1f162;
+}
+#contactSubBtn, #contactResBtn{
+    margin-left: 25%;
+}
+
+#serve1{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #e0d9dd; */
+    background-color: #000000d6;
+    color:#fff;   
+    margin-bottom: 1rem;
+}
+#serve1 h1, #watch1 h1{
+    margin: 2rem;
+}
+.servepage{
+    /* top, right, bottom, left:; */
+    margin: 0 10%;
+    margin: 0 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color: rgba(0, 0, 0, 0.023);
+    border-top: 2px solid  rgba(0, 0, 0, 0.023);
+
+}
+.card{
+    margin: 2rem;
+    
+    color: #404040;
+    /* color: #acbf61; */
+    color: #800020;
+}
+#watch1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.watchpage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#video1{
+      width: 40%;
+        border: 3px solid ;
+        text-align: center;
+                border: 3px solid  #800020;
+
+
+}
+#video2{
+          width: 40%;
+
+        border: 3px solid  #800020;
+        text-align: center;
+
+}
+
+
+
+
+
+/* ************************************************************************************************************************************************************       */
+
+footer {
+    background-color: #404040;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 12px;
+    border-top: 3px solid #222;
+    border-bottom: 24px solid #800020;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+logo-footer {
+    /* width: 25%; */
+}
+
+
+/* #footer-images{
+        list-style: none;
+
+    } */
+
+#footer-logo {
+    width: 100px;
+    height: 83px;
+}
+
+#social-media {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#fb {
+    width: 30px;
+    height: 30px;
+}
+
+logo-footer img {
+    /* width: 20%;
+        height: 20%; */
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 2px; */
+    /* width:100px;
+        height:83px; */
+    /* margin:3.5%; */
+}
+
+vision {
+    margin-top: 10px;
+    width: 25%;
+    text-align: left;
+    padding: 1px 8px 0px 5px;
+}
+.purposeStatement{
+    text-align: center;
+}
+
+
+contact {
+    width: 25%;
+    margin-top: 10px;
+    text-align: justify;
+    /* padding 1px 1px; */
+    padding: 1px 5px 0px 8px;
+}
+
+contact p {
+    margin-left: 10px;
+    text-align: center;
+}
+
+links {
+    margin-top: 10px;
+    width: 25%;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#linkHeader {
     width: 100%;
 }
-/* #div1{
-    height: 390px;
-}
-#div2{
-   height: 800px;
-}
-#div3{
-    
-    height: 800px;
-}
-#div4{
-    height: 355px;
-} */
-#section-1{
-    height: 283px;
-}
-#serve-1{
+
+.footer-p {
     clear: both;
-    /* background-image: url("../images/Choir/20191013_214935_resized[2]_3.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100% 100%; */
-    height: 467px; 
-    /* height: auto; */
-
-    /* width: 100%; */
-    /* border: 1px solid #000000; */
+    text-align: center;
+    color: #ededed;
+    font-size: 10px;
+    font-size: 8px;
+    margin-top: 30px;
 }
-#serve-2{
-    height: 1000px;
-}
-#joinFB{
-    margin-left: 340px;
-}
-.responsive-slideshow{
-    /* width: 100%; */
-    max-width: 720px;
-    height: 540px;
-  }
-  .largePic-responsive{
-      max-width: 960px;
-      height: 467px;
 
-  }
-  @media (max-width: 992px) {
-    html {
-      width: 768px;
-      margin:0 auto;
-      max-width: 100%;
-
-
+*********************************************************************************************************************************************************** */ @media screen and (max-width: 980px) {
+    .responsive {
+        width: 190px;
+        height: 140px;
     }
-    .responsive{
-        width: 90%;
-        max-width: 310px;
-        height: auto;
-
-    }
-    .largePic-responsive{
-        max-width: 720px;
-        /* max-width: 640px; */
-        height: 267px;
-        width: 100%;
-    }
-    .responsive-slideshow, .slideshow-container{
-        /* width: 100%; */
-        max-width: 500px;
-        height: 375px;
-        
-      }
-    #nav{
-   
-        margin-top: 60px;
-        margin-left: 0px;
-        width: 400px;
-        
-    }
-    .pastorPic-responsive{
-        /* float: left;   */
-        /* height: 100%;
-        width: 100%; */
-        max-width: 230px;
-    }
-    #serve-1{
-        height: 347px;
-    }
-    #serve-2{
-        height: 980px;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .responsive{
-        width: 80%;
-        max-width: 310px;
-        height: auto;
-
-    }
-    .responsive2{
-        width: 80%;
-       
-      }
-    .nav-link{
-        font-size: medium;
-    }
-    #nav{
-   
-        margin-top: 8px;
-        margin-left: 170px;
-        width: 400px;
-        
-    }
-    /* #serve-2{
-        height: 2000px;
-    } */
-    /* #mid-section{
-        height: 402px;
-    } */
-    #home-p2{
-        height: 480px;
-    }
-    #home-p3{
-        height: 300px;
-    }
-    #contact-p1{
-        height: 820px;
-    }
-    #serve-1{
-        height: 260px;
-    }
-     #mid-section{
-        
-        height: 342px;
-    } 
-    #serve-h1{
-        font-size: 22px;
-    }
-    #serve-2{
-        height: 880px;
-    }
-    #joinFB{
-        margin-left: 100px;
-    }
-    .responsive-slideshow, .slideshow-container{
-        /* width: 100%; */
-        max-width: 400px;
-        height: 348px;
-        
-      }
-      .largePic-responsive{
-        max-width: 680px;
-        /* max-width: 640px; */
-        height: 342px;
-        width: 100%;
-    }
-    html{
-        width: 640px;
-        margin:0 auto;
-        max-width: 100%;
-
-            }
-    
-    #container{
-        
-        width: 640px;
-        max-width: 540px;
-        margin: 0 auto;
-    }
-    #prayer-window{
-        width: 500px;
-    }
-    #prayerMessage{
-        width: 300px;
-    }
-    #prayer-window{
-       
-        width: 500px;
-        height: 530px;
-       
-        margin-left: 5px;
-       
-    }
-    #prayer-window.h1{
-        margin-left: 8px; 
-    }
-    .pastorPic-responsive{
-        /* float: left;   */
-        /* height: 100%;
-        width: 100%; */
-        max-width: 200px;
-    }
-    }
-
-
-
-@media screen and (max-width: 639px) {
-    .responsive{
-        width: 70%;
-        max-width: 210px;
-        height: auto;
-
-    }
-  
-    .responsive2{
-        width: 80%;
-       
-      }
-    .nav-link{
-        font-size: small;
-    }
-    #nav{
-        width: 280px;
-        margin-top: 30px;
-        margin-left: 148px;
-        
-    }
-    #scripture{
+    footer {
         font-size: 10px;
-        
     }
-    #home-p2{
-        height: 480px;
+    .navbar {
+        font-size: 15px;
     }
-    #home-p3{
-        height: 300px;
-    }
-    #contact-p1{
-        height: 910px;
-    }
-    #serve-2{
-        height: 900px;
-    }
-    #joinFB{
-        margin-left: 50px;
-    }
-    .responsive-slideshow, .slideshow-container{
-        /* width: 100%; */
-        max-width: 280px;
-        height: 244px;
-      }
-	.largePic-responsive{
-        max-width: 580px;
-        /* max-width: 540px; */
-        height: 237px;
-        width: 100%;
-    }
-    
-    #serve-1, #mid-section {
-        /* width: 510px; */
-        height: 237px;
-    }
-     html{
-        width: 500px;
-        margin:0 auto;
-        max-width: 100%;
-            }
-    
-    #container{
-        
-        width: 500px;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-    #prayerMessage{
-        width: 200px;
-    }
-    #prayer-window{
-       
-        width: 350px;
-        height: 530px;
-       
-        margin-left: 5px;
-       
-    }
-    #prayer-window.h1{
-        margin-left: 3px; 
-    }
-    .pastorPic-responsive{
-        /* float: left;   */
-        /* height: 100%;
-        width: 100%; */
-        max-width: 150px;
-        margin-left: 15px;;
-    }
+}
 
+@media screen and (max-width: 768px) {
+    .responsive {
+        width: 170px;
+        height: 130px;
+    }
+    footer {
+        font-size: 10px;
+    }
+    .navbar {
+        font-size: 15px;
+    }
+    /* give{
+            margin: 6%;
+        }
+     give img{
+        width: 350px;
+        height: 400px;
+
+    } */
+}
+
+@media screen and (max-width: 640px) {
+    .responsive {
+        width: 150px;
+        height: 110px;
+    }
+    footer {
+        font-size: 10px;
+    }
+    .navbar {
+        font-size: 12px;
+    }
+    /* contactpage{
+            height:680px;
+        } */
+    /* give{
+        margin-left: 0;
+        }
+    give img{
+        width: 290px;
+        height: 300px;
+
+    } */
 }

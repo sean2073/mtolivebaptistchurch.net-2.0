@@ -2,14 +2,14 @@ console.log("in js file");
 
 
 function sendContactForm() {
-    
+    console.log("about to perform sendContactForm() function");
     var valid;	
     valid = validateEmail();
     console.log("the email address is " + valid);
      if(valid) {
-       // sendEmail();
+
     $.ajax({
-        url: "https://www.mtolivebaptistchurch.net/assets/PHP/contactForm.php",
+        url: "https://www.mtolivebaptistchurch.net/assets/PHP/phpmail.php",
         data: 'name=' + $("#nameInput").val() + '&userEmail-address=' +
             $("#emailInput").val() + '&subject=' +
             $("#subjectInput").val() + '&message=' +
@@ -18,7 +18,8 @@ function sendContactForm() {
         success: function (data) {
             $("#mail-status").html(data);
             $("form").trigger("reset");
-            console.log(data);
+            // console.log(data);
+            alert("Message sent!");
             console.log("Everything was successful");
         },
         error: function (err) {
@@ -48,22 +49,3 @@ function validateEmail() {
    
     return valid;
 }
-// function sendEmail(){
-//     console.log("I'm about to send the email");
-//     $.ajax({
-//         url: "https://www.mtolivebaptistchurch.net/assets/PHP/contactForm.php",
-//         data: 'name=' + $("#nameInput").val() + '&userEmail-address=' +
-//             $("#emailInput").val() + '&subject=' +
-//             $("#subjectInput").val() + '&message=' +
-//             $("#messageTextarea").val(),
-//         method: "POST",
-//         success: function (data) {
-//             $("#mail-status").html(data);
-//             console.log(data);
-//             console.log("Everything was successful")
-//         },
-//         error: function (err) {
-//             console.log(err);
-//         }
-//     })
-// }
